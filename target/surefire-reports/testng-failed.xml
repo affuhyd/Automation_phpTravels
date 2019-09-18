@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ReportsListener.MyExtentReport"/>
+    <listener class-name="Utilities.AnnotationTransformer"/>
+    <listener class-name="Utilities.RetryAnalyzer"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.CurrenciesManagementPageTest">
+        <methods>
+          <include name="setCurrencyAsDefaultTest"/>
+          <include name="sort_records_BySymbol_Test"/>
+          <include name="tearDown"/>
+          <include name="Verify_CronjobURL_field_ReadOnly_Test"/>
+          <include name="Verify_Edit_Currency_Test"/>
+          <include name="sort_records_ByName_Test"/>
+          <include name="sort_records_ByRate_Test"/>
+          <include name="Verify_Deletion_record_Test"/>
+          <include name="Verify_ClickDelete_and_Cancel_Deletion_Test"/>
+          <include name="Verify_CurrencyAPIKeys_field_ReadOnly_Test"/>
+          <include name="setCurrencyAsDefault_Cancel_Test"/>
+          <include name="setUp"/>
+          <include name="Verify_ViewCurrencyRecord_Test"/>
+          <include name="sort_records_ByCode_Test"/>
+          <include name="sort_records_ByActive_Test"/>
+        </methods>
+      </class> <!-- TestCases.CurrenciesManagementPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

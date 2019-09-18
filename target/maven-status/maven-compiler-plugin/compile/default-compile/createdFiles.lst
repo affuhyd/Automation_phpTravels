@@ -1,0 +1,13 @@
+PageObjects\ViewCurrencyPage.class
+PageObjects\AdminConsole.class
+PageObjects\AddCurrencyPage.class
+Utilities\RetryAnalyzer.class
+PageObjects\CurrenciesManagementPage.class
+Utilities\TestUtilities.class
+Utilities\AnnotationTransformer.class
+PageObjects\AddLocationPage.class
+ReportsListener\MyExtentReport.class
+PageObjects\LoginPage.class
+Base\ParentBase.class
+PageObjects\LocationsListPage.class
+Utilities\EventListener.class
